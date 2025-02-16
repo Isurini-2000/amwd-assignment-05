@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.grid {
+    display: grid;
+}
+
+.top {
+    background-color: #DB8C33;
+    height: 120px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+img {
+    padding-left: 29px;
+    width: 60px;
+    height: 60px;
+}
+
+.link {
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+}
+
+a {
+    color: white;
+    font-size: 21px;
+    text-decoration: none;
+    margin-right: 90px;
+}
+
+.item-2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 100px;
+
+}
+
+.form{
+    height: 450px;
+    background-color: #E9E6E6;
+    width: 55em;
+    padding: 20px;
+}
+
+.lable{
+    color: rgb(103, 99, 99);
+    font-size: 20px;
+}
+
+.input{
+    border-radius: 10px;
+    border: 1px solid black;
+    height: 45px;
+}
+
+.row-1{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 35px;
+}
+
+.row1{
+    width: 31em;
+}
+
+.row-2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 35px;
+}
+
+.row2{
+    width: 20em;
+}
+
+.row-3{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 35px;
+}
+
+.row3{
+    width: 43em;
+}
+
+.row-4{
+    display: flex;
+    justify-content: end;
+    margin-top: 55px;
+}
+
+.btn{
+    width: 20em;
+    height: 45px;
+    background-color: rgb(33, 186, 99);
+    color: black;
+    border-radius: 10px;
+}
+
+.item-3{
+    margin-top: 75px;
+    position: relative;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto;
+}
+
+.center{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    text-align: end;
+    
+}
+
+.item-4{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 60px;
+}
+
+.text{
+    height: 300px;
+    width: 330px;
+    background-color: #DB8C33;
+    border-radius: 10px;
+}
+
+.m-1{
+    height: 70px;
+    width: 70px;
+    margin-top: 30px;
+    margin-left: 130px;
+}
+
+h2{
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+}
+
+p{
+    color: white;
+    margin-top: 20px;
+    margin-left: 20px
+}
+
+.item-5{
+    margin-top: 75px;
+    background-color: #D9D9D9;
+}
+
+.f-text{
+    margin-top: 130px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.f-img{
+   display: flex;
+   justify-content: end;
+   flex-wrap: wrap;
+}
+
+.img-2{
+    height: 70px;
+    width: 70px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
